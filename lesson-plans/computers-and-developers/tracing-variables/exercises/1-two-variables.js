@@ -11,14 +11,18 @@
 
 // trace the program a few times with different values
 
-let x = 'Pieter';
+let x = 'Pieter'; // declare, init
 // let x = 'Blake';
 // let x = 'George';
 
-let y = 'hello ' + x;
+let y = 'hello ' + x; // read x value and it's Pieter
+                      // declare, init  y value and it's  hello Pieter
 
-console.log(y);
+console.log(y); // here we print y value and it's hello Pieter
 
-y = 'good bye ' + x;
+y = 'good bye ' + x; // read x value first and it's Pieter
+                     // assign y value and it's good bye Pieter
 
-console.log(y);
+console.log(y); // we print y and the result is good bye Pieter
+
+
