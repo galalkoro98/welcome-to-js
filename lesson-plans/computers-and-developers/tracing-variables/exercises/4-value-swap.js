@@ -29,7 +29,7 @@ console.log(a, b, t); // read (a) and value is x
                       // read (t) and value is y
 
 // what did you do in this program?
-//  what are the final values of `a` and `b`?
-//  how are they changed from the initial values
+// what are the final values of `a` and `b`?
+// how are they changed from the initial values
 
-// is it possible two swap a and b without using t?
+// is it possible to swap a and b without using t?
