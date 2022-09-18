@@ -14,10 +14,11 @@ whenFormDataChanges('user-data', () => {
 
   // read a string from the <input> with id "to-double"
   let text = readString('to-double');
+  //text = 'asdf' // this will help you without writing 
 
   // --- repeat the text ---
 
-  let repeated = text + '\n' + text;
+  let repeated = text + '\n' + text + '\n' + text + '\n' + text;
 
   // --- display the repeated text ---
 
