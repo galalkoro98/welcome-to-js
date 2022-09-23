@@ -26,9 +26,11 @@ whenFormDataChanges('sleep-info', () => {
     advice = 'Study some flashcards.';
   } else if (isTired && !hasTime) {
     advice = 'Make some coffee.';
-  } else if (!isTired && !hasTime) {
+  } else {
     advice = 'Have a great day!';
   }
+  
+
 
   // --- display the advice ---
 

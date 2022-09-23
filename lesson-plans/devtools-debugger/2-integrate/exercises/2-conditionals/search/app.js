@@ -35,8 +35,10 @@ whenFormDataChanges('search-input', () => {
 
   if (doesExist) {
     message = 'yes';
+    message = 'This does exist';
   } else {
     message = 'no';
+    message = 'did not exist what you enter'
   }
 
   // --- display the search results ---
