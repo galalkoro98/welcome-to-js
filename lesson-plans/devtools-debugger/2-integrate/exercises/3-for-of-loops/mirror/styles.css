@@ -1,8 +1,10 @@
 .computery {
   font-family: monospace;
-  color: chartreuse;
   background-color: black;
-  height: 2em;
-  width: 25em;
+  height: 4em;
+  width: 50em;
   text-align: center;
+  padding-top: 20px;
+  color: azure;
+  font-size: larger;
 }
