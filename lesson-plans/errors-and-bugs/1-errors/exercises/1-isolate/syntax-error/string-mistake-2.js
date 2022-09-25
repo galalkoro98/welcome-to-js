@@ -6,20 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: browser 
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected string
 
-  location:
+  location: line 23 colum 44
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: was can not use multyple single quote on same line 
 
-  the fix(es):
+  the fix(es): remove the single quote and add double quote 
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself "i can do this!" at least once a day';
+console.log(quotesInQuotes);
 
 

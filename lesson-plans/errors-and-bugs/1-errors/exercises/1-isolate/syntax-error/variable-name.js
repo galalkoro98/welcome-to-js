@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: browser
 
-  name:
-  message:
+  name:SyntaxError
+  message: Unexpected number
 
-  location:
+  location: line 25 colum 8
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: was declaring variale name with number as a first character 
 
-  the fix(es):
+  the fix(es): rename the varible name 
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

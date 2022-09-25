@@ -3,21 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:browser 
 
-  name:
-  message:
+  name:TypeError
+  message: maxNumber is not iterable
 
-  location:
+  location:line 22 colum 17
 
-  life cycle:
+  life cycle: execution phase 
 
-  the mistake:
+  the mistake: was trying to itrate somthing that is not itratble 
 
-  the fix(es):
+  the fix(es): assign a string/ arry to mxaNumber
 */
 
-const maxNumber = 6;
+const maxNumber = [];
 
 for (const i of maxNumber) {
   console.log(i); // 0, 1, 2, 3, 4, 5

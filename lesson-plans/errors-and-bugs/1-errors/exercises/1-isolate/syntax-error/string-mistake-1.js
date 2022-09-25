@@ -6,21 +6,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: browser 
 
-  name:
-  message:
+  name: SyntaxError
+  message: Invalid or unexpected token
 
-  location:
+  location: line 23 colum 16
 
-  life cycle:
+  life cycle: Creation Phase
 
-  the mistake:
+  the mistake: was syntax error string 
 
-  the fix(es):
+  the fix(es): remove line brake 
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
 

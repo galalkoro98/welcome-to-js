@@ -3,20 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: browser 
 
-  name:
-  message:
+  name: ReferenceError
+  message: Cannot access 'tomatoes' before initialization
 
-  location:
+  location: line 20 colum 13
 
-  life cycle:
+  life cycle:execution phase
 
-  the mistake:
+  the mistake: the mistake was reading variable  before was declare and int 
 
-  the fix(es):
+  the fix(es):read decare and int before reading 
 */
 
-console.log(tomatoes);
+
 
 let tomatoes = 'fresh';
+console.log(tomatoes);
