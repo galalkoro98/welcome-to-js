@@ -15,10 +15,9 @@ whenFormDataChanges('input', () => {
   // --- build a pyramid ---
 
 let pyramid = '';
-let pyramid1 = 30;
-for (let i = 1; i <= pyramid1; i++){
-  for (let j = 1; j < i; j++){
-    pyramid += bricks;
+for (let i = 1; i <= bricks.length; i++){
+  for (let j = 0; j < i; j++){
+    pyramid += bricks[0];
   }
   pyramid += '\n';
 }

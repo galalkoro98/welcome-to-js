@@ -3,7 +3,8 @@
   color: chartreuse;
   background-color: black;
   height: 35em;
-  width: 20em;
+  width: 40em;
+  padding: 2em 1em;
 }
 
 .side-by-side {
