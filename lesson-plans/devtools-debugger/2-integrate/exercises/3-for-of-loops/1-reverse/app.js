@@ -6,7 +6,7 @@ import {
 } from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('reversify', () => {
-  debugger;
+  //debugger;
 
   console.log('--- form data changed ---');
 
@@ -34,6 +34,15 @@ whenFormDataChanges('reversify', () => {
   } else {
     finalText = reversed.toLowerCase();
   }
+
+  
+/*
+  if (text.length < 3) {
+    console.log("short");    
+  }else if(text.length > 5){
+    console.log("long");
+   
+  }*/
 
   console.log(finalText);
 
