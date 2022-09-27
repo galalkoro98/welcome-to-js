@@ -39,9 +39,9 @@ whenFormDataChanges('sleep-info', () => {
     advice = 'Make some coffee.';
   } else if(!isTired && !hasTime) {
     advice = 'Have a great day!';
-  }
+  } 
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

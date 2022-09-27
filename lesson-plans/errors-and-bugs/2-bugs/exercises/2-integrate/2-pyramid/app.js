@@ -15,6 +15,8 @@ whenFormDataChanges('input', () => {
   // --- build a pyramid ---
 
 let pyramid = '';
+
+
 for (let i = 1; i <= bricks.length; i++){
   for (let j = 0; j < i; j++){
     pyramid += bricks[j];
@@ -22,13 +24,14 @@ for (let i = 1; i <= bricks.length; i++){
   pyramid += '\n';
 }
 
-  /*
+/*
+let word = '';
+  
   for (const brick of bricks) {
-    for (const brick1 of bricks) {
-      pyramid +=  brick + brick1;
-    }
-    pyramid += '\n';
-  }*/
+    word +=  brick;
+    pyramid += word + '\n';
+  }
+  */
   // --- display the pyramid ---
 
   displayString('out', pyramid);
