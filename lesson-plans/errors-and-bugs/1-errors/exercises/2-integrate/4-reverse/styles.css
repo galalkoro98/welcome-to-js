@@ -1,0 +1,8 @@
+.container{
+ text-align: center;
+}
+
+#out{
+  font-size: 3em;
+  color: red;
+}
