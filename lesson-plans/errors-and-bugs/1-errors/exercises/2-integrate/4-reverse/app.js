@@ -39,9 +39,9 @@ whenFormDataChanges('reversify', () => {
 
   let finalText = '';
   if (screaming) {
-    finalText = reversed.toUpperCase();
+    finalText = text + reversed.toUpperCase();
   } else {
-    finalText = reversed.toLowerCase();
+    finalText = text + reversed.toLowerCase();
   }
 
   // --- display the final text ---
